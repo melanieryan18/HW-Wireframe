@@ -1,0 +1,22 @@
+
+/*stylesheet, recommended homework*/
+
+header {
+    background-color: #ffffff;
+    border: 6px solid #cccccc;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+footer {
+    background-color: #666666;
+}
+
+body {
+    background-color: #ffffff;
+    border: 6px solid #dddddd;
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+}

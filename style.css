@@ -1,82 +1,79 @@
 
+/*stylesheet, homework 1*/
 
-body{
+body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     width: 960px;
-    font-size: 18px;
-    background: #777;
-}
-
-.header {
-    background-color: #ebebeb;
-    padding: 25px 50px;
-    width: 950px;
-    margin: 10px 50px;
     color: #777;
-    font-size: 18px;
-    text-align: center;
-}    
-
-.full {
-    width: 40%;
-    height: 150px;
-    padding: 50px 50px;
-    border: 20px solid #777;
     margin: 10px auto;
-    float: left;
-    background: #ebebeb;
+    font-size: 18px;
+    background-color: #777;
 }
 
-.aside {
-    background: #ebebeb;
-    height: auto;
-    width: 495px;
-    padding: 20px;
-    border: 10px solid #777;
-    margin: 10px auto;   ;
-    float: left;
+header, nav, footer {
+    background-color: #ebebeb;
+    padding: 25px 0;
+    /* width: 960px; */
+    margin: 10px auto;
+    color: #777;
+    text-align: center;
 }  
 
+
+section {
+    background: #ebebeb;
+    width: 495px;
+    height: 305px;
+    padding: 28px;
+    margin: 10px auto;
+    float: left;
+    text-align: center;
+}
+
+aside {
+    background: #ebebeb;
+    text-align: center;
+    width: 343px;
+    height: 321px;
+    padding: 20px;
+    margin: 10px auto;
+    float: right;
+}
+
+h3 {
+    color: #777;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
 #article {
-    background: 777px;
-    color: white;
-    text-weight: lighter;
-    width: 30%;
-    padding:15px;
-    border: 5px solid #777;
-    margin: 8px;
-    overflow: auto;
+    background-color: #777;
+    color: #ebebeb;
+    width: 90%;
+    padding: 25px;
+    margin: 24px auto;
 }
 
 #h1 {
     background: #ebebeb;
     color: #777;
-    font-weight:bold;
-    width: 30%;
-    padding: 10px;
-    border: 5px solid #777;
-    margin: 8px;
-    overflow: auto;
-    
-}
-
-#paragraph{
-    background: #ebebeb;
-    color: #777;
-    width: 30%;
-    padding: 10px;
-    border: 5px solid #777;
-    margin: 8px;
-    overflow: auto;
-}
-
-footer {
-    clear: both;
-    background: #ebebeb;
     text-align: center;
-    padding: 25px;
-    margin: 10px 50px;
-    color: #777;
-    font-size: 16px;
-    font-weight: lighter;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
 }
+
+#paragraph {
+    color: #777;
+    text-align: center;
+    background: #ebebeb;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+
+}   
+
+.clear {
+    clear:both;
+}
+
